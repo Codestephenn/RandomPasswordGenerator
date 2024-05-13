@@ -1,0 +1,128 @@
+/* Reset default margin, padding, and use a custom font */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Global styles for body */
+body {
+  background-color: #002339;
+  color: #fff;
+}
+
+/* Container styles */
+.container {
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+
+/* Display area styles */
+.display {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #fff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px;
+  border-radius: 5px;
+}
+
+/* Heading styles */
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+/* Span within heading for accent color */
+.container h1 span {
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 7px;
+}
+
+/* Copy icon styles */
+.display img {
+  width: 30px;
+  cursor: pointer;
+}
+
+/* Password input styles */
+.display input {
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+}
+
+/* Generate password button styles */
+.container button img {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.container button {
+  border: 0;
+  outline: 0;
+  background: #019f55;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 5%;
+  }
+  
+  /* Heading styles */
+.container h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+.display input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+}
+
+display {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #fff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 10px;
+  border-radius: 5px;
+}
+.container button{
+  font-size: 18px;
+  font-weight: 300;
+  padding: 8px 13px;
+  
+}
+/* Generate password button styles */
+.container button img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.display img {
+  width: 35px;
+  cursor: pointer;
+}
+}
